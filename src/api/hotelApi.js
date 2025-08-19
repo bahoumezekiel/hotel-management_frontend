@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-// URL de base de ton API backend
-const API_URL = 'http://localhost:3000/api/hotels';
+// URL de base de mon API backend
+const API_URL = 'https://hotel-management-backend-x5yp.onrender.com/api/hotels';
+
 
 // Obtenir tous les hôtels
 export const getHotels = async () => {

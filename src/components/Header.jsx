@@ -21,9 +21,9 @@ const Header = ({ toggleSidebar, sidebarOpen }) => {
 
   return (
     <header className="bg-white text-black p-4 flex items-center justify-between fixed top-0 left-0 right-0 z-40 h-16 shadow-md border-b border-gray-200">
-      {/* Partie gauche - Bouton menu et logo */}
+       
       <div className="flex items-center">
-        {/* Bouton menu à gauche */}
+        
         <button 
           onClick={toggleSidebar}
           className="text-black focus:outline-none mr-4 hover:bg-gray-100 p-2 rounded transition-colors"
@@ -34,14 +34,14 @@ const Header = ({ toggleSidebar, sidebarOpen }) => {
           />
         </button>
         
-        {/* Icône hôtel + texte */}
+        
         <h1 className="text-xl font-bold flex items-center">
           <FontAwesomeIcon icon={faHotel} className="mr-2 text-gray-500" /> 
           Hotel Manager
         </h1>
       </div>
 
-      {/* Partie droite - Informations utilisateur */}
+       
       <div className="flex items-center space-x-4">
         {/* Email utilisateur */}
         <span className="hidden md:block text-black font-medium text-sm">

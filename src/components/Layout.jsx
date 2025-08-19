@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
 
     return (
         <div className="min-h-screen bg-gray-100">
-            {/* Header fixe */}
+            
             <Header toggleSidebar={toggleSidebar} sidebarOpen={sidebarOpen} />
             
             {/* Sidebar */}

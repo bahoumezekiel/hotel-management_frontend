@@ -1,12 +1,13 @@
 import axios from 'axios';
 
-// URL de base de votre API backend
-const API_URL = 'http://localhost:3000/api/auth';
+// URL de base de mon API backend
+const API_URL = 'https://hotel-management-backend-x5yp.onrender.com/api/auth';
+
 
 // Configuration axios pour inclure les cookies
 axios.defaults.withCredentials = true;
 
-// Créer une instance axios pour l'authentification
+// Creation d'une instance axios pour l'authentification
 const authAPI = axios.create({
   baseURL: API_URL,
   withCredentials: true,
@@ -44,7 +45,7 @@ authAPI.interceptors.response.use(
   }
 );
 
-// === FONCTIONS D'AUTHENTIFICATION ===
+ 
 
 // Inscription
 export const signup = async (userData) => {
@@ -188,7 +189,7 @@ export const getCurrentUser = async () => {
   }
 };
 
-// === FONCTIONS UTILITAIRES ===
+ 
 
 // Vérifier si l'utilisateur est connecté (côté client)
 export const isAuthenticated = () => {

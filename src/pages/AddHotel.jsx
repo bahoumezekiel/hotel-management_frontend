@@ -86,7 +86,7 @@ const AddHotel = () => {
             const hotelData = {
                 name: name.trim(),
                 description: description.trim(),
-                ville: ville.trim(), // ✅ IMPORTANT : Inclure la ville
+                ville: ville.trim(),  
                 image: image
             };
             
