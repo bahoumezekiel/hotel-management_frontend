@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // URL de base de mon API backend
-const API_URL = 'https://hotel-management-backend-x5yp.onrender.com/api/auth';
+const API_URL = 'https://hotel-management-backend-1-ngaz.onrender.com/api/auth';
 
 
 // Configuration axios pour inclure les cookies
